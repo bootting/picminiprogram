@@ -41,6 +41,11 @@
             "style": {
                 "navigationBarTitleText": "分类详情"
             }
+        }, {
+            "path": "pages/videoPlay/index",
+            "style": {
+                "navigationBarTitleText": "视频详情"
+            }
         }
     ],
     "globalStyle": {
