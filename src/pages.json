@@ -1,14 +1,13 @@
 {
     "pages": [{
-            "path": "pages/video/index",
-            "style": {
-                "navigationBarTitleText": "精美视频"
-            }
-        },
-        {
             "path": "pages/home/index",
             "style": {
                 "navigationBarTitleText": "首页"
+            }
+        }, {
+            "path": "pages/video/index",
+            "style": {
+                "navigationBarTitleText": "精美视频"
             }
         },
         {
@@ -30,9 +29,9 @@
         }
     ],
     "globalStyle": {
-        "navigationBarTextStyle": "black",
-        "navigationBarTitleText": "uni-app",
-        "navigationBarBackgroundColor": "#F8F8F8",
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "图吧",
+        "navigationBarBackgroundColor": "#000",
         "backgroundColor": "#F8F8F8"
     },
     "tabBar": {
