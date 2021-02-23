@@ -24,8 +24,10 @@
 
       <!-- 专辑列表 开始 -->
       <view class="wallpaper_wrap">
-         <view class="wallpaper_item" v-for="item in wallpaper" :key="item.id">
-            <image mode="aspectFill" :src="item.thumb + item.rule.replace('$<Height>',360)"></image>
+         <view class="wallpaper_item" v-for="(item,index) in wallpaper" :key="item.id">
+            <go-Detail :list="wallpaper" :index="index">
+                <image mode="aspectFill" :src="item.thumb + item.rule.replace('$<Height>',360)"></image>
+            </go-Detail>
          </view>
       </view>
       <!-- 专辑列表 结束 -->
@@ -33,7 +35,8 @@
 </template>
 
 <script>
-
+//引入图片详情组件
+import {goDetail} from "../../components/goDetail";
 export default {
    data () {
       return {
@@ -97,8 +100,10 @@ export default {
             icon:"none"
          });
      }
+   },
+    components: {
+        goDetail
    }
-   
   
 }
 </script>
