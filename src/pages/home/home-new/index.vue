@@ -1,5 +1,5 @@
 <template>
-    <view>横屏</view>
+    <view>最新</view>
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-    <view>横屏</view>
+    <view>专辑</view>
 </template>
 
 <script>
